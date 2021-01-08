@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font: 2rem Archivo;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  color: black;
+  font: 1rem Poppins;
+}
+#display {
+  border: 1px solid black;
+  width: 60rem;
+  height: 10rem;
+  display: grid;
+  justify-content: end;
+  align-content: center;
+  background-color: #a0a0a03d;;
+  color: black;
+  font: 4rem Poppins;
+}
+#number {
+  margin-right: 1rem;
+}
+#lineone {
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#lineone > div,
+#parts > div {
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-ac {
+  border: 1px solid black;
+  border-top: 0px;
+  background-color: #a0a0a081;
+  color: black;
+}
+#btn-c {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #a0a0a081;
+  color: black;
+}
+#btn-porcent {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #a0a0a081;
+  color: black;
+}
+#btn-division {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #ffa600c4;
+
+}
+#linetwo {
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#linetwo > div,
+#parts > div {
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-seven {
+  border: 1px solid black;
+  border-top: 0px;
+  background-color: #82807d;
+
+}
+#btn-eight {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-nine {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-multiplication {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #ffa600c4;
+  
+
+}
+#linethree {
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#linethree > div,
+#parts > div {
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-four {
+  border: 1px solid black;
+  border-top: 0px;
+  background-color: #82807d;
+
+}
+#btn-five {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-six {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-minus {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #ffa600c4;
+ 
+
+}
+#linefour {
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#linefour > div,
+#parts > div {
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-one {
+  border: 1px solid black;
+  border-top: 0px;
+  background-color: #82807d;
+}
+#btn-two {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-three {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-plus {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #ffa600c4;
+ 
+}
+
+#linefive {
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#linefive > div,
+#parts > div {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-zero {
+  width: 30rem;
+  border: 1px solid black;
+  border-top: 0px;
+  background-color: #82807d;
+
+}
+#btn-dot {
+  width: 15rem;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #82807d;
+
+}
+#btn-equal {
+  width: 15rem;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #ffa600c4;
+  
+
+}
